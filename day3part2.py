@@ -2,7 +2,7 @@ from collections import defaultdict
 from copy import copy
 
 def main():
-    with open('day3.txt') as data:
+    with open('data/day3.txt') as data:
         instructions = data.readlines()
 
     bit_nums = [line.split('\n')[0] for line in instructions]

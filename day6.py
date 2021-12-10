@@ -3,7 +3,7 @@ NEW_BIRTHS = 9
 DAYS = 256
 
 def main():
-    with open('day6.txt') as h:
+    with open('data/day6.txt') as h:
         contents = h.readlines()
     contents = [c.split('\n')[0] for c in contents]
     init_state = [int(c) for c in contents[0].split(',')]

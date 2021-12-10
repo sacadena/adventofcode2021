@@ -2,7 +2,7 @@
 from collections import defaultdict
 
 def main():
-    with open('day5.txt') as h:
+    with open('data/day5.txt') as h:
         contents = h.readlines()
     contents  = [c.split('\n')[0] for c in contents]
 

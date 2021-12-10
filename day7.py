@@ -1,5 +1,5 @@
 def main():
-    with open('day7.txt') as h:
+    with open('data/day7.txt') as h:
         contents = h.readlines()
     contents = [c.split('\n')[0] for c in contents]
     locations = [int(c) for c in contents[0].split(',')]

@@ -5,7 +5,7 @@ COST_WRONG_CHAR = {')': 3, ']': 57, '}': 1197, '>': 25137}
 SCORE_COMPLETE_CHAR = {')': 1, ']': 2, '}': 3, '>': 4}
 
 def main():
-    with open('day10.txt') as h:
+    with open('data/day10.txt') as h:
         contents = h.readlines()
     contents = [c.split('\n')[0] for c in contents]
 
