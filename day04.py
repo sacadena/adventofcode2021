@@ -4,7 +4,7 @@ from copy import copy
 
 def main():
     # Reading and formatting
-    with open('data/day4.txt') as h:
+    with open('data/day04.txt') as h:
         contents = h.readlines()
 
     contents = [c.split('\n')[0] for c in contents]

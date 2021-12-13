@@ -1,6 +1,6 @@
 # https://adventofcode.com/2021/day/9
 def main():
-    with open('data/day9.txt') as h:
+    with open('data/day09.txt') as h:
         contents = h.readlines()
     contents = [c.split('\n')[0] for c in contents]
     contents = [[int(ci) for ci in c] for c in contents]

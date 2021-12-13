@@ -13,7 +13,7 @@ DIGITS = {0: set(['a', 'b', 'c', 'e', 'f', 'g']),
 CHARS = {'a', 'b', 'c', 'd', 'e', 'f', 'g'}
 
 def main():
-    with open('data/day8.txt') as h:
+    with open('data/day08.txt') as h:
         contents = h.readlines()
     contents = [c.split('\n')[0] for c in contents]
     list_prompts = [c.split(' | ')[0] for c in contents]
