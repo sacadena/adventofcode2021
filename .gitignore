@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Custom ignore files
-./day15temp.py
+day15temp.py
 
 # C extensions
 *.so
